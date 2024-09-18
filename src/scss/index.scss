@@ -67,7 +67,6 @@ header {
 }
 
 .trending-feed-post {
-  max-width: 450px;
   width: 100vw;
 }
 
@@ -99,4 +98,30 @@ header {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; 
+}
+
+.white-outer-border {
+  box-shadow: 0 0 0 4px white;
+}
+
+.custom-negative-margin {
+  margin-top: -100px;
+}
+
+.follow-count,
+.profile-menu-items {
+  color: #8e8e8e;
+  font-size: 14px;
+}
+
+.profile-about-p {
+  font-size: 14px;
+}
+
+// .profile-card {
+//   max-width: 500px;
+// }
+
+.follow-name-font {
+  font-size: 14px;
 }
