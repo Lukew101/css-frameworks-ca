@@ -1,20 +1,16 @@
 $primary-color: #1b4571;
-$secondary-color: #BF2051;
+$secondary-color: #bf2051;
 $tertiary-color: #d1d9e6;
 
 @font-face {
-  font-family: 'Fira Sans Extra Condensed';
-  src: url('/util/fonts/Fira\ Sans\ Extra\ Condensed.ttf') format('truetype');
+  font-family: "Fira Sans Extra Condensed";
+  src: url("/util/fonts/Fira\ Sans\ Extra\ Condensed.ttf") format("truetype");
 }
-
 
 .header-title {
   color: $primary-color;
   font-size: 58px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  font-family: 'Fira Sans Extra Condensed';
-  text-align: center;
+  font-family: "Fira Sans Extra Condensed";
 }
 
 .login-form {
@@ -26,14 +22,6 @@ $tertiary-color: #d1d9e6;
 #loginButton {
   background-color: $primary-color;
   color: white;
-}
-
-.login-separator-line {
-  align-items: center;
-  border-bottom: 1px solid #dadde1;
-  display: flex;
-  margin: 20px 16px;
-  text-align: center;
 }
 
 #registerButton {
@@ -55,7 +43,8 @@ header {
   text-underline-offset: 3px;
 }
 
-.feed-main {
+.feed-main,
+.profile-main {
   background-color: $tertiary-color;
   min-height: 100vh;
 }
@@ -68,14 +57,6 @@ header {
 
 .trending-feed-post {
   width: 100vw;
-}
-
-.post-separator-line {
-  align-items: center;
-  border-bottom: 1px solid #dadde1;
-  display: flex;
-  margin: 12px 8px;
-  text-align: center;
 }
 
 .post-posted-time {
@@ -97,7 +78,7 @@ header {
   font-size: 14px;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
 }
 
 .white-outer-border {
@@ -118,10 +99,10 @@ header {
   font-size: 14px;
 }
 
-// .profile-card {
-//   max-width: 500px;
-// }
-
 .follow-name-font {
   font-size: 14px;
+}
+
+.post-box-shadow {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.1);
 }
